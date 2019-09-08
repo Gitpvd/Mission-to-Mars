@@ -1,0 +1,35 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+header {
+  padding: 20px 0;
+}
+header h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  header p {
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://media.edutopia.org/styles/responsive_2880px_original/s3/masters/2018-08/shutterstock_1041249343_master.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 200px;
+  }
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #0d3fe0;
+    text-shadow: none;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #6f82ee;
+    background-color: #5c8af0;
